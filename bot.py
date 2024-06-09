@@ -5,7 +5,7 @@ from io import BytesIO
 TELEGRAM_TOKEN = "token"
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 
-FASTAPI_URL = "http://127.0.0.1:8000/predict"
+FASTAPI_URL = "URL/predict"
 
 
 @bot.message_handler(commands=['start'])
